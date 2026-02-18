@@ -1,12 +1,10 @@
 .section1{
-    height: 810px;
+  
     background-color: #287FEB;
  
 
 }
-.desc{
-    white-space: nowrap;
-}
+
 
 .pic{
 
@@ -20,7 +18,7 @@
     font-size: 100px;
     text-align: center;
     padding-top: 140px;
-    white-space: nowrap;
+
 }
 .pfp{
     
