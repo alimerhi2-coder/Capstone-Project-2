@@ -1,0 +1,126 @@
+.section1{
+    height: 810px;
+    background-color: #287FEB;
+ 
+
+}
+.desc{
+    white-space: nowrap;
+}
+
+.pic{
+
+  align-items: flex-end;  /* pushes content to bottom */
+  justify-content: center; /* optional: center horizontally */
+}
+
+.name{
+    color: #1CEBD1;
+    font-family: Caveat;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 140px;
+    white-space: nowrap;
+}
+.pfp{
+    
+    margin-top: 100px;
+    text-align: center;
+}
+.ali{
+    border-radius:50%;
+}
+.intro{
+    font-family: 'Roboto';
+    margin: 0 auto;
+    max-width: 40ch;
+}
+.blue-hr {
+  border: none;
+  height: 6px;
+  border-radius: 5px;
+  background: linear-gradient(270deg, #00f, #0ff, #00f, #0ff);
+  background-size: 400% 100%;
+  animation: gradientLoop 5s linear infinite;
+  margin: 30px 0;
+}
+
+@keyframes gradientLoop {
+  0% { background-position: 0% 0%; }
+  100% { background-position: 100% 0%; }
+}
+
+h2, h3 {
+  color: #287FEB;
+  text-align: center;
+}
+.section2 h2,
+.Section3 h2,
+.Section3 .feature h3 {
+  color: #287FEB !important;
+  text-align: center;
+}
+/* Contact section (top) */
+.contact-section {
+  background: #ffffff;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.contact-section h2 {
+  color: #66bfbf;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.contact-section h4 {
+  color: #1CC1EB;
+  margin-bottom: 20px;
+}
+
+.contact-section p {
+  max-width: 500px;
+  margin: auto;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+/* Button */
+.contact-btn {
+  background: #287FEB;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contact-btn:hover {
+  background: #287FEB;
+}
+
+
+/* Footer section (bottom) */
+.footer-section {
+  background: #287FEB;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.footer-section a {
+  margin: 0 15px;
+  color: #1CC1EB;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+.copyright {
+  margin-top: 20px;
+  color: white;
+  font-size: 14px;
+}
